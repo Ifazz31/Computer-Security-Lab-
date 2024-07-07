@@ -1,0 +1,2 @@
+03:02:35 ifaz@ifaz-ubuntu Computer Security_Lab → openssl enc -aes-256-ecb -in original.bmp -out encrypted_ecb.bmp -K 3031323334353637383968616d696d
+03:09:49 ifaz@ifaz-ubuntu Computer Security_Lab → openssl enc -aes-256-cbc -in original.bmp -out encrypted_cbc.bmp -K 3031323334353637383968616d696d -iv 0102030405060708
